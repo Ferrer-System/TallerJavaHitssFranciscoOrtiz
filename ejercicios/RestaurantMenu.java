@@ -1,4 +1,4 @@
-package ejercisios;
+package ejercicio;
 
 import java.util.Scanner;
 
@@ -24,15 +24,19 @@ public class RestaurantMenu {
             opcion = sc.nextInt();
             //Las opciones estan controladas por un switch moderno
             switch (opcion) {
-                //En el primer caso anide un if para sumar los precios y acumularlos directamente en la varible total
+                //En el primer caso anide un if  dentro de un dowhile para sumar los precios y acumularlos directamente en la varible total
                 case 1 -> {
-                    System.out.println("Pedidos, registre su pedido");
-                    if (opcion == 1) {
-                System.out.println("Ingrese el precio del producto: ");
-                precio = sc.nextDouble();
+                    do {
+                        System.out.println("Pedidos, Ingrese el precio de su producto");
+                        precio = sc.nextDouble();
+                        if (precio <= 0) {
+                            System.out.println("Precio del producto invalido");
+                        }
+                
+                } while (precio <= 0);
+
                 total += precio;
                 System.out.println("Pedido registrado correctamente: " + total);
-            }
                 }
                 //Concateno el total, no afecta las opciones 
                 case 2 -> System.out.println("Total de las ventas: " + (total));
