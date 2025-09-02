@@ -29,7 +29,7 @@ public class Perro extends Canino {
 
 	@Override
 	public String comunicarse() {
-		return "El perro zalvaje emite chillidos y ladridos para poderse counicar con su manada.";
+		return "El perro zalvaje emite chillidos y ladridos para poderse comunicar con su manada.";
 	}
 
 	@Override
