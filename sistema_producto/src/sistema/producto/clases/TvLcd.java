@@ -5,16 +5,16 @@ import sistema.producto.abstracts.Electronico;
 //clase entidad
 public class TvLcd extends Electronico {
 
-	private double precio;
+	
 	private int pulgadas;
 
 	//constructor que tambien llama al constructor de electronico
 	public TvLcd(String fabricante, int pulgadas, double precio) {
-		super(fabricante);
-		this.precio = precio;
+		super(precio, fabricante);
 		this.pulgadas = pulgadas;
 	}
 
+	
 	@Override
 	public double getPrecio() {
 		return precio;

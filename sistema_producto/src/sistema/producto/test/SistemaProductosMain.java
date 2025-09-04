@@ -15,7 +15,7 @@ public class SistemaProductosMain {
 		IProducto[] productos = new IProducto[5];
 		
 		//creacion de los objetos 
-		IProducto iphone = new Iphone("Appe", "Negro", "14 Pro", 25000);
+		IProducto iphone = new Iphone("Apple", "Negro", "14 Pro", 25000);
 		IProducto tvlcd = new TvLcd("Sony", 55, 18000);
 		IProducto libro1 = new Libro("Mariona Nadel Farré", "Manual Imprescendible 2da edición", "ANAYA MULTIMEDIA", 760, "24/07/2021");
 		IProducto libro2 = new Libro("Mark J. Price", "Tools and Skills for .NET 8", "Packt Publishing", 9600, "30/07/2024");

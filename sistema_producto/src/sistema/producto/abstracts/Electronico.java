@@ -1,21 +1,23 @@
 package sistema.producto.abstracts;
 
 import sistema.producto.interfaces.IElectronico;
-import sistema.producto.interfaces.IProducto;
 
 //clase abstracta que representa prodcutos electronicos 
-public abstract class Electronico implements IElectronico, IProducto {
+public abstract class Electronico extends Producto implements IElectronico {
 
-	protected String fabricante; // nombre deñ fabricante
+	protected String fabricante; // nombre deL fabricante
 
 	//constructor
-	public Electronico(String fabricante) {
+	public Electronico(double precio, String fabricante) {
+		super(precio);
 		this.fabricante = fabricante;
 	}
+
 
 	//metodo getter
 	public String getFabricante() {
 		return fabricante;
 	}
 
+	
 }

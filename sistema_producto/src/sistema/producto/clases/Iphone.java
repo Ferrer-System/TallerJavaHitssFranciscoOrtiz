@@ -7,14 +7,13 @@ public class Iphone extends Electronico {
 
 	private String color;
 	private String modelo;
-	private double precio;
+	
 
 	//constructor y adicional llama al costructor de electronico
 	public Iphone(String fabricante, String color, String modelo, double precio) {
-		super(fabricante);
+		super(precio, fabricante);
 		this.color = color;
 		this.modelo = modelo;
-		this.precio = precio;
 	}
 
 	//devuelve el precio base
