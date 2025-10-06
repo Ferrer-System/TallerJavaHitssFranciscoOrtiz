@@ -1,0 +1,6 @@
+Factura [32720f66-c638-4195-8c38-07d89a22c1bc]
+Cliente: Laura Cortez
+Libro: Java Basico
+Precio Original: $500.0
+Precio con descuento: $450.0
+Fecha: 2025-09-30

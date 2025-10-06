@@ -1,0 +1,6 @@
+Factura [ed142a07-56ef-4586-9ad7-9b52b0fb4f9c]
+Cliente: Ferrer Lara
+Libro: Fundamentos de Programacion
+Precio Original: $991.0
+Precio con descuento: $891.9
+Fecha: 2025-10-01
